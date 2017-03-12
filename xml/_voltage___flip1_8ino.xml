@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_voltage___flip1_8ino" kind="file" language="C++">
+    <compoundname>Voltage_Flip1.ino</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_voltage___flip1_8ino_1a1073356e0e1a07d0cf84ec154a2060ec" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int sensorPin</definition>
+        <argsstring></argsstring>
+        <name>sensorPin</name>
+        <initializer>= A0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" line="31" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_voltage___flip1_8ino_1afeb01fe8e64f41e1c6ad3777c2a3aa6c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int voltageFlipPin1</definition>
+        <argsstring></argsstring>
+        <name>voltageFlipPin1</name>
+        <initializer>= A3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" line="32" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_voltage___flip1_8ino_1a9704d98e8240e2efb178a310a237afe1" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int voltageFlipPin2</definition>
+        <argsstring></argsstring>
+        <name>voltageFlipPin2</name>
+        <initializer>= A4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" line="33" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_voltage___flip1_8ino_1a734029c5fc6508cd75bf19cd7f52b66d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int LED</definition>
+        <argsstring></argsstring>
+        <name>LED</name>
+        <initializer>= A1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" line="34" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_voltage___flip1_8ino_1aee78dc7dae91ec43886fc97cacb4b493" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int flipTimer</definition>
+        <argsstring></argsstring>
+        <name>flipTimer</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" line="37" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_voltage___flip1_8ino_1a4fc01d736fe50cf5b977f755b675f11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" line="39" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="_voltage___flip1_8ino_1a5df887dda0edbc1fe97d9d7d9250cdab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setSensorPolarity</definition>
+        <argsstring>(boolean flip)</argsstring>
+        <name>setSensorPolarity</name>
+        <param>
+          <type>boolean</type>
+          <declname>flip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" line="47" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="_voltage___flip1_8ino_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" line="58" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" bodystart="58" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="_voltage___flip1_8ino_1a1968304e8363279cd8e29cdcbc184349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void reportLevels</definition>
+        <argsstring>(int val1, int val2)</argsstring>
+        <name>reportLevels</name>
+        <param>
+          <type>int</type>
+          <declname>val1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" line="75" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino" bodystart="75" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Voltage_Flip1/Voltage_Flip1.ino"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_blink-example_8ino" kind="file" language="C++">
+    <compoundname>Blink-example.ino</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_blink-example_8ino_1a4fc01d736fe50cf5b977f755b675f11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the setup function runs once when you press reset or power the board</para><para>Detailed explanation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Blink-example/Blink-example.ino" line="30" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Blink-example/Blink-example.ino" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="_blink-example_8ino_1afe461d27b9c48d5921c00d521181f12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loop</definition>
+        <argsstring>()</argsstring>
+        <name>loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the loop function runs over and over again forever</para><para>Detailed explanation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Blink-example/Blink-example.ino" line="40" column="1" bodyfile="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Blink-example/Blink-example.ino" bodystart="40" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Arduino code exmaple of blinking the onboard LED. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Coach J </para></simplesect>
+<simplesect kind="date"><para>Feb 19, 2017 Blink Turns on an LED on for one second, then off for one second, repeatedly.</para></simplesect>
+Most Arduinos have an on-board LED you can control. On the Uno and Leonardo, it is attached to digital pin 13. If you&apos;re unsure what pin the on-board LED is connected to on your Arduino model, check the documentation at <ulink url="http://www.arduino.cc">http://www.arduino.cc</ulink></para><para>This example code is in the public domain.</para><para>modified 8 May 2014 by Scott Fitzgerald </para>    </detaileddescription>
+    <location file="C:/Users/CyborgFerrets/Documents/Coach/Arduino-Sketchbook/Blink-example/Blink-example.ino"/>
+  </compounddef>
+</doxygen>
